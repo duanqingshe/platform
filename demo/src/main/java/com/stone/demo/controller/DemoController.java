@@ -27,6 +27,7 @@ public class DemoController{
 		for(Demo demo : page.getResult()){
 			System.out.println(demo.getId() +"======"+ demo.getName());
 		}
+		//测试远程git提交
 		return DemoConsist.toHtmlPage("index");
 	}
 	
